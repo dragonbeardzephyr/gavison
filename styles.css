@@ -6,44 +6,45 @@
   grid-auto-flow: row;
 }
 
-.About { grid-area: 2 / 3 / 6 / 8; }
 
-.Visit { grid-area: 2 / 11 / 4 / 13; }
+.About { grid-area: 2 / 3 / 6 / 8; background-color: black;}
 
-.Quotes { grid-area: 5 / 10 / 9 / 13; }
+.Visit { grid-area: 2 / 11 / 4 / 13; background-color: black;}
 
-.Comments { grid-area: 10 / 9 / 17 / 13; }
+.Quotes { grid-area: 5 / 10 / 9 / 13; background-color: black;}
 
-.Interests { grid-area: 7 / 3 / 10 / 7; }
+.Comments { grid-area: 10 / 9 / 17 / 13; background-color: black;}
 
-.Games { grid-area: 12 / 3 / 16 / 8; }
+.Interests { grid-area: 7 / 3 / 10 / 7; background-color: black;}
 
-.Links { grid-area: 1 / 1 / 20 / 2; }
+.Games { grid-area: 12 / 3 / 16 / 8; background-color: black;}
 
-.Site Links { grid-area: 2 / 1 / 11 / 2; }
+.Links { grid-area: 1 / 1 / 20 / 2; background-color: black;}
 
-.Other Links { grid-area: 11 / 1 / 20 / 2; }
+.Site Links { grid-area: 2 / 1 / 11 / 2; background-color: black;}
 
-.Art { grid-area: 22 / 1 / 29 / 5; }
+.Other Links { grid-area: 11 / 1 / 20 / 2; background-color: black;}
 
-.Piano { grid-area: 30 / 6 / 33 / 13; }
+.Art { grid-area: 22 / 1 / 29 / 5; background-color: black;}
 
-.StaticArt2 { grid-area: 26 / 6 / 29 / 8; }
+.Piano { grid-area: 30 / 6 / 33 / 13; background-color: black;}
 
-.Fun Button { grid-area: 22 / 6 / 25 / 8; }
+.StaticArt2 { grid-area: 26 / 6 / 29 / 8; background-color: black;}
 
-.StaticArt1 { grid-area: 18 / 12 / 24 / 14; }
+.Fun Button { grid-area: 22 / 6 / 25 / 8; background-color: black;}
 
-.Music { grid-area: 17 / 3 / 21 / 7; }
+.StaticArt1 { grid-area: 18 / 12 / 24 / 14; background-color: black;}
 
-.Chalkboard { grid-area: 18 / 8 / 29 / 12; }
+.Music { grid-area: 17 / 3 / 21 / 7; background-color: black;}
 
-.StaticArt3 { grid-area: 24 / 12 / 29 / 14; }
+.Chalkboard { grid-area: 18 / 8 / 29 / 12; background-color: black;}
 
-.Footer { grid-area: 33 / 1 / 35 / 14; }
+.StaticArt3 { grid-area: 24 / 12 / 29 / 14; background-color: black;}
 
-.SOmehting Cool { grid-area: 31 / 1 / 32 / 5; }
+.Footer { grid-area: 33 / 1 / 35 / 14; background-color: black;}
 
-.Somehting else cool { grid-area: 3 / 9 / 4 / 10; }
+.SOmehting Cool { grid-area: 31 / 1 / 32 / 5; background-color: black;}
 
-.another cool thing { grid-area: 7 / 8 / 9 / 9; }
+.Somehting else cool { grid-area: 3 / 9 / 4 / 10; background-color: black;}
+
+.another cool thing { grid-area: 7 / 8 / 9 / 9; background-color: black;}

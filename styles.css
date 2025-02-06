@@ -7,11 +7,11 @@
 }
 
 
-.About { grid-area: 2 / 3 / 6 / 8; background-color: black;}
+.About { grid-area: 2 / 3 / 6 / 8; background-color: rgb(231, 20, 20);}
 
-.Visit { grid-area: 2 / 11 / 4 / 13; background-color: black;}
+.Visit { grid-area: 2 / 11 / 4 / 13; background-color: rgb(179, 215, 14);}
 
-.Quotes { grid-area: 5 / 10 / 9 / 13; background-color: black;}
+.Quotes { grid-area: 5 / 10 / 9 / 13; background-color: rgb(20, 217, 188);}
 
 .Comments { grid-area: 10 / 9 / 17 / 13; background-color: black;}
 
@@ -41,10 +41,10 @@
 
 .StaticArt3 { grid-area: 24 / 12 / 29 / 14; background-color: black;}
 
-.Footer { grid-area: 33 / 1 / 35 / 14; background-color: black;}
-
 .SOmehting Cool { grid-area: 31 / 1 / 32 / 5; background-color: black;}
 
 .Somehting else cool { grid-area: 3 / 9 / 4 / 10; background-color: black;}
 
 .another cool thing { grid-area: 7 / 8 / 9 / 9; background-color: black;}
+
+.Footer { grid-area: 33 / 1 / 35 / 14; background-color: black;}

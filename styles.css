@@ -1,6 +1,9 @@
 
 body {
   background-image: url('IMAGES\universo.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
 }
 
 

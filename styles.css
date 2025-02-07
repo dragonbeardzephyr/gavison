@@ -1,9 +1,8 @@
 
 body {
-  background-image: url('IMAGES\universo.gif');
-  background-repeat: no-repeat;
+  background-image: url('IMAGES/universo.gif');
+  background-repeat: repeat;
   background-attachment: fixed;
-  display: flex;
 }
 
 
@@ -13,3 +12,17 @@ body {
   justify-content: center;
 }
 
+aside {
+  width: 20%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

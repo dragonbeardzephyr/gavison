@@ -3,3 +3,10 @@ body {
   background-image: url("IMAGES\universo.gif"); 
   background-repeat: repeat;
 }
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

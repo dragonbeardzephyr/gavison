@@ -20,20 +20,79 @@ body {
   border-radius: 10px;
 }
 
-.Site-Links{}
+.Site-Links{
+  width: 20%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Other-Links{}
+.Other-Links{
+  width: 20%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
 .Middle {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 20%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-right: 10px;
+  border-radius: 10px;
 }
+
+.About {}
+
+.Interests {}
+
+.Games {} 
+
+
 
 .Right {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 20%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
+.Visit {}
 
+.Quotes {}
+
+.Comments {}
+
+
+.Music {}
+
+.Art{}
+
+.Fun-Button {}
+
+.Chalkboard {}
+
+.StaticArt1-2 {}
+
+.StaticArt3 {}
+
+.Somethin-Cool {}
+
+.Something-else-cool {}
+
+.another-cool-thing {}
+
+.Piano {}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}

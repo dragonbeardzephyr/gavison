@@ -1,16 +1,20 @@
-
 body {
-  background-image: url('IMAGES/universo.gif');
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
-
-
-.flex-container {
+  margin: 0;
+  padding: 0;
+  background: url('IMAGES/universo.gif') no-repeat center center fixed;
+  background-size: cover;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
+
+.container {
+  width: 80%; /* Adjust for different screen sizes */
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.9); /* Optional: Light background for content */
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 .Links {
   width: 20%;
@@ -23,7 +27,7 @@ body {
 .Site-Links{
   width: 20%;
   padding: 10px;
-  background-color: #f1f1f1;
+  background-color: #6d6d6d;
   margin-right: 10px;
   border-radius: 10px;
 }
@@ -31,7 +35,7 @@ body {
 .Other-Links{
   width: 20%;
   padding: 10px;
-  background-color: #f1f1f1;
+  background-color: #702f2f;
   margin-right: 10px;
   border-radius: 10px;
 }
@@ -39,53 +43,137 @@ body {
 .Middle {
   width: 20%;
   padding: 10px;
-  background-color: #f1f1f1;
+  background-color: #4597c6;
   margin-right: 10px;
   border-radius: 10px;
 }
 
-.About {}
+.About {
+  padding: 10px;
+  background-color: #b1af21;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Interests {}
+.Interests {
+  padding: 10px;
+  background-color: #811f91;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Games {} 
+.Games {
+  padding: 10px;
+  background-color: #00ffbb;
+  margin-right: 10px;
+  border-radius: 10px;
+} 
 
 
 
 .Right {
   width: 20%;
   padding: 10px;
-  background-color: #f1f1f1;
+  background-color: #adffac;
   margin-right: 10px;
   border-radius: 10px;
 }
 
-.Visit {}
+.Visit {
+  padding: 10px;
+  background-color: #645a00;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Quotes {}
+.Quotes {
+  padding: 10px;
+  background-color: #593bff;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Comments {}
+.Comments {
+  padding: 10px;
+  background-color: #830c7f;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
 
-.Music {}
+.Music {
+  width: 20%;
+  padding: 10px;
+  background-color: #cd8dff;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Art{}
+.Art{
+  width: 20%;
+  padding: 10px;
+  background-color: #ff0000;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Fun-Button {}
+.Fun-Button {
+  padding: 10px;
+  background-color: #1e00ff;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Chalkboard {}
+.Chalkboard {
+  padding: 10px;
+  background-color: #3cff00;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.StaticArt1-2 {}
+.StaticArt1-2 {
+  padding: 10px;
+  background-color: #ffea00;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.StaticArt3 {}
+.StaticArt3 {
+  padding: 10px;
+  background-color: #ff7300;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Somethin-Cool {}
+.Somethin-Cool {
+  padding: 10px;
+  background-color: #ff00dd;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Something-else-cool {}
+.Something-else-cool {
+  padding: 10px;
+  background-color: #813e51;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.another-cool-thing {}
+.another-cool-thing {
+  width: 20%;
+  padding: 10px;
+  background-color: #b7cc79;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
-.Piano {}
+.Piano {
+  width: 20%;
+  padding: 10px;
+  background-color: #7f533b;
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
 
 .footer {
@@ -95,4 +183,11 @@ body {
   background-color: #333333;
   color: white;
   text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+      width: 90%;
+  }
 }

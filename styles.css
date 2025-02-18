@@ -1,31 +1,38 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('IMAGES/universo.gif') no-repeat center center fixed;
+  background: url('IMAGES/universo.gif');
   background-repeat: repeat;
   display: flex;
   justify-content: center;
 }
 
 .container {
-  width: 60%; /* Adjust for different screen sizes */
+  width: 60%;
   max-width: 1200px;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 20px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background: url('IMAGES\1000021431_Glitch.jpg');
+  background-repeat: repeat;
+  justify-content: center;
 }
 
+.Top {    
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;}
 
 .Links {
   width: 20%;
-  padding: 20px;
+  padding: 10px;
   background-color: #f1f1f1;
-  margin-right: 20px;
-  border-radius: 15px;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
 .Site-Links{
-  width: 100%;
+
   padding: 10px;
   background-color: #6d6d6d;
   margin-right: 10px;
@@ -33,7 +40,6 @@ body {
 }
 
 .Other-Links{
-  width: 100%;
   padding: 10px;
   background-color: #702f2f;
   margin-right: 10px;
@@ -100,6 +106,13 @@ body {
   border-radius: 10px;
 }
 
+.block-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-1-left {
+}
 
 .Music {
   width: 100%;
@@ -117,11 +130,28 @@ body {
   border-radius: 10px;
 }
 
+.block-1-middle {
+}
+
 .Fun-Button {
   padding: 10px;
   background-color: #1e00ff;
   margin-right: 10px;
   border-radius: 10px;
+}
+
+.StaticArt3 {
+  padding: 10px;
+  background-color: #ff7300;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+
+
+.block-1-right {
+  display: flex;
+  justify-content: space-between;
 }
 
 .Chalkboard {
@@ -136,16 +166,17 @@ body {
   background-color: #ffea00;
   margin-right: 10px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.StaticArt3 {
-  padding: 10px;
-  background-color: #ff7300;
-  margin-right: 10px;
-  border-radius: 10px;
+
+.block-2 {
+  display: flex;
+  flex-direction: row;
 }
 
-.Somethin-Cool {
+.Something-Cool {
   padding: 10px;
   background-color: #ff00dd;
   margin-right: 10px;
@@ -157,6 +188,11 @@ body {
   background-color: #813e51;
   margin-right: 10px;
   border-radius: 10px;
+}
+
+.block-3 {
+  display: flex;
+  justify-content: space-between;
 }
 
 .another-cool-thing {
@@ -187,7 +223,13 @@ body {
 
 
 @media (max-width: 768px) {
-  .container {
-      width: 90%;
+  .Top {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .Links, .Middle, .Right {
+      width: 100%;
+      margin-bottom: 10px;
   }
 }

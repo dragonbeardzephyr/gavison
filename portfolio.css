@@ -1,9 +1,11 @@
 body {
   background: linear-gradient(to bottom, #222, #ff4271);
+  background-attachment: fixed;
   color: #fff;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 .container {

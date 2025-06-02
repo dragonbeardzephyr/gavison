@@ -15,8 +15,8 @@ body {
 
 header h1 {
   font-size: 22px;
-  color: cyan;
-  text-shadow: 0 0 6px cyan;
+  color: #00ff99;
+  text-shadow: 0 0 6px #00ff99;
 }
 
 .tagline {

@@ -1,7 +1,7 @@
 body {
-  background-color: black;
+  background: black;
   color: lime;
-  font-family: monospace, 'Courier New', sans-serif;
+  font-family: 'Courier New', monospace;
   margin: 0;
   padding: 0;
 }
@@ -14,49 +14,32 @@ body {
 }
 
 header h1 {
-  font-size: 20px;
+  font-size: 22px;
   color: cyan;
-  text-shadow: 0 0 5px cyan;
+  text-shadow: 0 0 6px cyan;
 }
 
-nav {
-  margin: 1rem 0;
+.tagline {
+  color: magenta;
+  font-size: 12px;
 }
 
 nav a {
-  color: magenta;
+  color: yellow;
   text-decoration: none;
-  padding: 0 10px;
+  margin: 0 10px;
 }
-
 nav a:hover {
-  text-shadow: 0 0 4px magenta;
+  text-shadow: 0 0 4px yellow;
 }
 
 main img {
-  max-width: 100%;
   margin-top: 1rem;
-}
-
-.project {
-  border: 2px dashed lime;
-  margin: 1rem 0;
-  padding: 1rem;
+  max-width: 100%;
 }
 
 footer {
   margin-top: 2rem;
   font-size: 0.8rem;
-  color: grey;
-}
-
-/* Responsive tweaks */
-@media (max-width: 600px) {
-  body {
-    font-size: 12px;
-  }
-
-  .container {
-    padding: 0.5rem;
-  }
+  color: #777;
 }

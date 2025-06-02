@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(to bottom, #222, #111);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #ff00ff;
+  text-align: center;
+  text-shadow: 0 0 4px #ff00ff;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+nav a {
+  color: #00ffff;
+  text-decoration: none;
+  margin: 0 8px;
+}
+nav a:hover {
+  text-shadow: 0 0 5px #00ffff;
+}
+
+.project {
+  border: 2px dotted #ff00ff;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.project h2 {
+  margin-top: 0;
+  color: #ffff00;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: grey;
+  margin-top: 2rem;
+}

@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  color: lime;
+  font-family: monospace, 'Courier New', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 20px;
+  color: cyan;
+  text-shadow: 0 0 5px cyan;
+}
+
+nav {
+  margin: 1rem 0;
+}
+
+nav a {
+  color: magenta;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+nav a:hover {
+  text-shadow: 0 0 4px magenta;
+}
+
+main img {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+.project {
+  border: 2px dashed lime;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: grey;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    padding: 0.5rem;
+  }
+}

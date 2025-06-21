@@ -1,17 +1,16 @@
 body {
-    background-color: #1a1a1a; 
-    color: #33ff33; 
-   
-    display: flex;
-    justify-content: center;
+  background: black;
+  color: lime;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  max-width: 800px; /* A bit narrower for that retro feel */
+  max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black for a terminal-like effect */
-  border: 2px solid #33ff33; /* Green border to mimic old CRT monitors */
+  padding: 1rem;
+  text-align: center;
 }
 
 header h1 {

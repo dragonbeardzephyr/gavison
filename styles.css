@@ -1,29 +1,17 @@
 body {
-    /* A more muted, off-black for a "faded monitor" feel */
     background-color: #1a1a1a; 
-    /* Classic "green screen" text color */
     color: #33ff33; 
-    font-family: 'VT323', monospace; /* A great, readable pixel font from Google Fonts */
-    font-size: 18px; /* Slightly larger base font for readability */
-    
-    /* Center the main content container for that classic 90s look */
+   
     display: flex;
     justify-content: center;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 800px; /* A bit narrower for that retro feel */
   margin: 0 auto;
-  padding: 1rem;
-  text-align: center;
-  border-top: 2px solid #ffffff; /* White (light source hits here) */
-  border-left: 2px solid #ffffff; /* White (light source hits here) */
-  border-right: 2px solid #000000; /* Black (shadow side) */
-  border-bottom: 2px solid #000000;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  width: 80%; /* Makes the window take up 80% of the screen width. */
-  max-width: 800px; /* But it won't get wider than 800px on big screens. */
-  margin-top: 2rem; /* Pushes it down from the top of the page a bit. */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black for a terminal-like effect */
+  border: 2px solid #33ff33; /* Green border to mimic old CRT monitors */
 }
 
 header h1 {

@@ -1,13 +1,26 @@
-var i = 0;
-var txt = 'Gavison'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
+function setupTypeWriter(elementID, text, speed) {
+    const element = document.getElementById(elementID);
+
+    function startTyping() {
+        let i = 0;
+        element.innerHTML = ''; // Clear previous text
+
+        function type() {
+            if (i < text.length) {
+                element.innerHTML += text.charAt(i);
+                i++;
+                setTimeout(type, speed);
+            }
+        }
+        
+        type();
+    }
+
+    startTyping();
+
+    element.onclick = startTyping;
 }
 
 
+setupTypeWriter("name", "Gavison", 50);

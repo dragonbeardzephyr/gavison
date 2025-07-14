@@ -4,6 +4,8 @@ body {
   font-family: 'Courier New', monospace;
   margin: 0;
   padding: 0;
+  
+  cursor : url('https://example.com/cursor.png'), auto; /* Custom cursor */
 }
 
 .container {
@@ -18,6 +20,11 @@ header h1 {
   color: #00ff99;
   text-shadow: 0 0 6px #00ff99;
 }
+
+#name {
+  text-shadow: 0 1px 0 #ff00ff;
+}
+
 
 .tagline {
   color: magenta;

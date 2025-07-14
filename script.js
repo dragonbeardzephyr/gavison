@@ -23,4 +23,4 @@ function setupTypeWriter(elementID, text, speed) {
 }
 
 
-setupTypeWriter("name", "Gavison", 50);
+setupTypeWriter("welcome", "💿 WELCOME TO MY SITE 💿", 50);

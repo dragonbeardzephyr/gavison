@@ -20,18 +20,23 @@ async function getGithubRepos() {
         portfolioContainer.innerHTML = ''; 
 
         // Loop through each repository
-        repos.forEach(repo => {
+        repos.forEach(async repo => {
             // --- Create the Card Element ---
             const card = document.createElement('div');
             card.classList.add('project'); // Add a class for styling
 
             // --- Populate the Card with Repo Data ---
             // We use the nullish coalescing operator (??) to provide fallbacks for missing data.
+            // Fetch languages for the repo
+            const languagesResponse = await fetch(repo.languages_url);
+            const languages = await languagesResponse.json();
+            const languageList = Object.keys(languages).join(', ') || 'Not specified';
+            
             card.innerHTML = `
             <h2 class="project-title">${repo.name}</h2>
             <p class="project-description">${repo.description ?? 'No description available.'}</p>
             <div class="project-stats">
-                <span>Language: ${repo.language ?? 'Not specified'}</span>
+                <span>Languages: ${languageList}</span>
             </div>
             <div class="project-links">
                 <a href="${repo.html_url}" target="_blank">View on GitHub</a>

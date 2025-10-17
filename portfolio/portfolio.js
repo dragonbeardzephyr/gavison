@@ -28,16 +28,14 @@ async function getGithubRepos() {
             // --- Populate the Card with Repo Data ---
             // We use the nullish coalescing operator (??) to provide fallbacks for missing data.
             card.innerHTML = `
-                <h2 class="project-title">${repo.name}</h2>
-                <p class="project-description">${repo.description ?? 'No description available.'}</p>
-                <div class="project-stats">
-                    <span>⭐ ${repo.stargazers_count}</span>
-                    <span> Forks: ${repo.forks_count}</span>
-                    <span>${repo.language ?? ''}</span>
-                </div>
-                <div class="project-links">
-                    <a href="${repo.html_url}" target="_blank">View on GitHub</a>
-                </div>
+            <h2 class="project-title">${repo.name}</h2>
+            <p class="project-description">${repo.description ?? 'No description available.'}</p>
+            <div class="project-stats">
+                <span>Language: ${repo.language ?? 'Not specified'}</span>
+            </div>
+            <div class="project-links">
+                <a href="${repo.html_url}" target="_blank">View on GitHub</a>
+            </div>
             `;
 
             // --- Append the new card to the container ---

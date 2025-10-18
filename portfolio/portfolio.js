@@ -31,7 +31,11 @@ async function getGithubRepos() {
             const languagesResponse = await fetch(repo.languages_url);
             const languages = await languagesResponse.json();
             const languageList = Object.keys(languages).join(', ') || 'Not specified';
-            
+
+            if (repo.stargazers_count === 0) {
+                return; // Skip repos with zero stars
+            }
+
             card.innerHTML = `
             <h2 class="project-title">${repo.name}</h2>
             <p class="project-description">${repo.description ?? 'No description available.'}</p>

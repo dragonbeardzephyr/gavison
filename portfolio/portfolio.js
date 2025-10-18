@@ -1,10 +1,10 @@
 // A function to fetch and display your GitHub repos
 async function getGithubRepos() {
     // Your GitHub username
-    const username = 'dragonbeardzephyr';
+    const username = 'dragonbeardzephyr'; // Whaaaattttt?
     
     // The API endpoint URL
-    const apiUrl = `https://api.github.com/users/${username}/repos`;
+    const apiUrl = `https://api.github.com/users/${username}/starred`;
     
     // The container where the cards will be placed
     const portfolioContainer = document.getElementById('projects-list');
@@ -31,10 +31,6 @@ async function getGithubRepos() {
             const languagesResponse = await fetch(repo.languages_url);
             const languages = await languagesResponse.json();
             const languageList = Object.keys(languages).join(', ') || 'Not specified';
-
-            if (repo.stargazers_count === 0) {
-                return; // Skip repos with zero stars
-            }
 
             card.innerHTML = `
             <h2 class="project-title">${repo.name}</h2>

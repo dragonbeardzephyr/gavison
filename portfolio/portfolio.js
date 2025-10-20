@@ -21,7 +21,7 @@ async function getGithubRepos() {
         repos.forEach(async repo => {
             
             const card = document.createElement('div');
-            card.classList.add('project'); // Add a class for styling
+            card.classList.add('project');
 
             const languagesResponse = await fetch(repo.languages_url);
             const languages = await languagesResponse.json();

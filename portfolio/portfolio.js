@@ -1,8 +1,6 @@
 async function getGithubRepos() {
     
     const username = 'dragonbeardzephyr'; // Whaaaattttt?
-    
-    
     const apiUrl = `https://api.github.com/users/${username}/starred`;
     
     

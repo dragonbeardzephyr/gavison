@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #00ff99, #ff4271);
+  background: linear-gradient(to bottom, #0a0c37, #ff4271);
   background-attachment: fixed;
   color: #fff;
   font-family: Arial, sans-serif;
@@ -35,7 +35,7 @@ nav a:hover {
 }
 
 .project {
-  border: 2px dotted #8400ff;
+  border: 2px dotted #ff00ff;
   margin-bottom: 1.5rem;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.05);
@@ -43,7 +43,7 @@ nav a:hover {
 
 .project h2 {
   margin-top: 0;
-  color: #ffff00;
+  color: #FFEE2E;
 }
 
 

@@ -8,8 +8,16 @@ body {
   cursor : url('https://example.com/cursor.png'), auto; /* Custom cursor */
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
   text-align: center;
@@ -47,6 +55,15 @@ main img {
   max-width: 100%;
 }
 
+
+.fancy-box {
+  border: 2px solid #00ff99;
+  padding: 1rem;
+  margin: 0;
+  box-shadow: 0 0 10px #7700ff;
+}
+
+
 .about {}
 
 .interests {}
@@ -76,7 +93,6 @@ main img {
 
 
 .piano {}
-
 
 
 

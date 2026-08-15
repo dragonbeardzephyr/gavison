@@ -1,7 +1,5 @@
 const USERNAME = 'dragonbeardzephyr';
-const TOPIC = 'port-folio';
-const API_URL = `https://api.github.com/search/repositories?q=user:${USERNAME}+topic:${TOPIC}`;
-
+const API_URL = `https://api.github.com/users/${USERNAME}/starred`;
 const portfolioContainer = document.getElementById('projects-list');
 
 async function fetchAndRenderRepos() {

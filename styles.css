@@ -21,23 +21,25 @@ header h1 {
   text-shadow: 0 0 6px #00ff99;
 }
 
-#name {
-  text-shadow: 0 1px 0 #ff00ff;
+
+.site-links {
+  display: flex;
+  flex-direction: column;
 }
 
-
-.tagline {
-  color: magenta;
-  font-size: 12px;
-}
-
-nav a {
+.site-links a {
   color: yellow;
   text-decoration: none;
   margin: 0 10px;
 }
-nav a:hover {
+
+.site-links a:hover {
   text-shadow: 0 0 4px yellow;
+}
+
+.links {
+  display: flex;
+  flex-direction: column; 
 }
 
 main img {
@@ -45,8 +47,64 @@ main img {
   max-width: 100%;
 }
 
+.about {}
+
+.interests {}
+
+.games {}
+
+
+.visit-counter {}
+
+.quotes {}
+
+.comment-box {}
+
+
+.music {}
+
+.dynamic-art {}
+
+.surprise {}
+
+.art {}
+
+
+.drawboard {}
+
+.window {}
+
+
+.piano {}
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
   margin-top: 2rem;
   font-size: 0.8rem;
   color: #777;
+}
+
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

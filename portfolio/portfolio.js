@@ -28,15 +28,13 @@ async function fetchAndRenderRepos() {
       }
 
       card.innerHTML = `
-        <div class="project">
-          <h2>${repo.name}</h2>
-          <p>${repo.description ?? 'No description available.'}</p>
-          <div>
-            <span>Languages: ${languageList}</span>
-          </div>
-          <div>
-            <a href="${repo.html_url}">View Repository</a>
-          </div>
+        <h2>${repo.name}</h2>
+        <p>${repo.description ?? 'No description available.'}</p>
+        <div>
+          <span>Languages: ${languageList}</span>
+        </div>
+        <div>
+          <a href="${repo.html_url}">View Repository</a>
         </div>
       `;
 

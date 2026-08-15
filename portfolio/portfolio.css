@@ -15,11 +15,25 @@ body {
 }
 
 #projects-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
+
+}
+
+
+.project {
+  border: 2px dotted #ff00ff;
+  margin-bottom: 1.5rem;
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.project h2 {
+  margin-top: 0;
+  color: #FFEE2E;
+}
+
+.project a {
+  color: #24ffff;
+  text-decoration: none;
 }
 
 header h1 {
@@ -43,22 +57,7 @@ nav a:hover {
   text-shadow: 0 0 5px #00ffff;
 }
 
-.project {
-  border: 2px dotted #ff00ff;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.05);
-}
 
-.project h2 {
-  margin-top: 0;
-  color: #FFEE2E;
-}
-
-.project a {
-  color: #24ffff;
-  text-decoration: none;
-}
 
 footer {
   text-align: center;

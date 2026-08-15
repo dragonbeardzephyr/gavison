@@ -11,7 +11,7 @@ async function fetchAndRenderRepos() {
     
     const repos = await response.json();
     
-    repos.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+    //repos.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
 
     portfolioContainer.innerHTML = '';
 

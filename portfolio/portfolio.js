@@ -1,23 +1,12 @@
-async function getGithubRepos() {
-    
-    const username = 'dragonbeardzephyr'; // Whaaaattttt?
-    const apiUrl = `https://api.github.com/users/${username}/starred`;
-    
-    
+import { getGithubRepos } from "./update.js";
+
+
+function renderProjects(projects) {
+
     const portfolioContainer = document.getElementById('projects-list');
 
-    try {
-        
-        const response = await fetch(apiUrl);
-        
-        const repos = await response.json();
+    for (const repo of projects) {
 
-        
-        portfolioContainer.innerHTML = ''; 
-
-        
-        repos.forEach(async repo => {
-            
             const card = document.createElement('div');
             card.classList.add('project');
 
@@ -36,16 +25,18 @@ async function getGithubRepos() {
                 </div>
             `;
 
-
             portfolioContainer.appendChild(card);
-        });
-
-    } catch (error) {
-
-        portfolioContainer.innerHTML = '<p>Sorry, could not fetch portfolio projects at this time.</p>';
-        console.error('Error fetching GitHub repos:', error);
     }
 }
 
 
+
+
 getGithubRepos();
+
+
+const projects = await fetch('projects.json').then(response => response.json());
+
+
+renderProjects(projects);
+

@@ -15,6 +15,13 @@ main {
 }
 
 
+.fancy-box {
+  border: 2px solid #00ff99;
+  padding: 1rem;
+  margin: 0;
+  box-shadow: 0 0 10px #7700ff;
+}
+
 
 .container {
   max-width: 1000px;
@@ -56,19 +63,16 @@ main img {
 }
 
 
-.fancy-box {
-  border: 2px solid #00ff99;
-  padding: 1rem;
-  margin: 0;
-  box-shadow: 0 0 10px #7700ff;
-}
+
 
 
 .about {}
 
 .interests {}
 
-.games {}
+.games{
+  align-items: left;
+}
 
 
 .visit-counter {}
